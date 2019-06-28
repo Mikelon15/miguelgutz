@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .name {
+        text-transform: uppercase;
+        border: 1px solid black;
+        display: inline-block;
+        position: absolute;
+        right: 25vw;
+        top: 5vh;
+        padding: 10px;
+        font-size: 32px;
+        background-color: snow;
+        box-shadow: 15px 15px 0px 3px orangered;
+        z-index: 1;
+
+
+    }
+
+    body {
+        font-family: 'Exo 2', sans-serif;
+        background-color: rgb(255, 219, 153);
+        color: rgb(45, 45, 45);
+        padding: 2%;
+    }
+
+    img {
+        /* background-color: transparent; */
+        /* object-fit: contain; */
+        /* width: 100%; */
+        position: absolute;
+        ;
+        top: 25%;
+        width: 100%;
+        /* background-color: violet; */
+        /* background-blend-mode: color; */
+        background: lightyellow;
+    }
+
+    .image {
+        width: 50%;
+        max-width: 500px;
+        /* height: 25%; */
+        position: absolute;
+        display: inline;
+        top: 10%;
+        left: 5%;
+    }
+
+    .links {
+        position: absolute;
+        top: 25%;
+        right: 25%;
+        width: 20%;
+    }
+
+    ul,
+    li {
+        list-style: none;
+    }
+
+    li {
+        background-color: white;
+        margin: 15px 0;
+        padding: 5px 15px;
+        width: 100%;
+        box-shadow: 3px 3px 0px 1px orangered;
+        transition: box-shadow 0.15s ease-in-out;
+        border-radius: 3px;
+    }
+
+    li:hover {
+        cursor: pointer;
+        background-color: rgb(250, 249, 249);
+        color: black;
+        box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
+    }
+
+    .laptop {
+        width: 35%;
+        height: 90px;
+        position: absolute;
+        background-color: transparent;
+        z-index: 1;
+        left: 52%;
+        margin-top: 75%;
+    }
+
+    .laptop:hover {
+        background-blend-mode: darken;
+        background-color: rgba(255, 106, 106, 0.1);
+    }
+
+    .noselect {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        -khtml-user-select: none;
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    }
+</style>
+<header>
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono|Exo+2&display=swap" rel="stylesheet">
+</header>
+
+<body>
+    <div class="name">
+        Miguel Gutierrez
+    </div>
+    <div class="image">
+        <img src="desert-coffee2.png" alt="my coffee">
+        <!-- <div class="laptop"></div> -->
+    </div>
+    <div class="links">
+        <ul>
+            <li class="noselect">my story</li>
+            <li class="noselect">projects</li>
+            <li class="noselect">drip</li>
+        </ul>
+    </div>
+</body>
+
+</html>
