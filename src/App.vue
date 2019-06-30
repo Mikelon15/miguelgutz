@@ -16,7 +16,6 @@
       </div>
       <div class="image">
           <img src="./assets/desert-coffee2.png" alt="my coffee">
-          <!-- <div class="laptop"></div> -->
       </div>
   </div>
 </template>
@@ -151,14 +150,6 @@ body {
     margin-left: -5%;
     margin-top: -20%;
   }
-  
-  // .links>ul>li:hover {
-  //       background-color: #fcfcfc;
-  //       cursor: pointer;
-  //       color: black;
-  //       padding: 5px 10px;
-  //       box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
-  // }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -209,72 +200,4 @@ body {
     }
   }
 }
-
-// img {
-//     /* background-color: transparent; */
-//     /* object-fit: contain; */
-//     /* width: 100%; */
-//     position: absolute;
-//     ;
-//     top: 25%;
-//     width: 100%;
-//     /* background-color: violet; */
-//     /* background-blend-mode: color; */
-//     background: lightyellow;
-// }
-
-// .image {
-//     width: 50%;
-//     max-width: 500px;
-//     /* height: 25%; */
-//     position: absolute;
-//     display: inline;
-//     top: 10%;
-//     left: 5%;
-// }
-
-// .links {
-//     position: absolute;
-//     top: 25%;
-//     right: 25%;
-//     width: 20%;
-// }
-
-// ul,
-// li {
-//     list-style: none;
-// }
-
-// li {
-//     background-color: white;
-//     margin: 15px 0;
-//     padding: 5px 15px;
-//     width: 100%;
-//     box-shadow: 3px 3px 0px 1px orangered;
-//     transition: box-shadow 0.15s ease-in-out;
-//     border-radius: 3px;
-// }
-
-// li:hover {
-  //     background-color: rgb(250, 249, 249);
-    // cursor: pointer;
-    // color: black;
-    // box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
-// }
-
-// .laptop {
-//     width: 35%;
-//     height: 90px;
-//     position: absolute;
-//     background-color: transparent;
-//     z-index: 1;
-//     left: 52%;
-//     margin-top: 75%;
-// }
-
-// .laptop:hover {
-//     background-blend-mode: darken;
-//     background-color: rgba(255, 106, 106, 0.1);
-// }
-
 </style>
