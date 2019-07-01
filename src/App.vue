@@ -140,7 +140,7 @@ body {
   }
   .links>ul {
     justify-content: flex-end;
-    padding-right: 15%;
+    padding-right: 2%;
     >li {
       width: 15%;
     }
@@ -177,7 +177,7 @@ body {
 
       >a {
         border-radius: 5px;
-        padding: 5px 30px;
+        padding: 5px 100px;
         width: 25%;
         border: solid 1px gray;
         background-color: white;
@@ -187,8 +187,8 @@ body {
   .links>ul>li>a:hover {
     background-color: #fcfcfc;
     cursor: pointer;
+    padding: 5px 100px;
     color: black;
-    padding: 5px 30px;
     box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
   }
   .image {
