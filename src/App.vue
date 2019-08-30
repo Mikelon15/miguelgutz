@@ -1,26 +1,31 @@
 <template>
   <div class="main">
       <link href="https://fonts.googleapis.com/css?family=B612+Mono|Exo+2&display=swap" rel="stylesheet">
-      
+      <!-- <Story /> -->
       <div class="name">
         <h1>
           Miguel Gutierrez
         </h1>
       </div>
       <div class="links">
-          <ul>
-              <li class="noselect"><a>my story</a></li>
+          <!-- <ul>
+              <li class="noselect"><a>about me</a></li>
               <li class="noselect"><a>projects</a></li>
-              <li class="noselect"><a>drip</a></li>
-          </ul>
+              <li class="noselect"><a>projects</a></li>
+          </ul> -->
+      </div>
+      <div class="description">
+        <p> web developer </p>
+        <p> I'm a web developer. Building interfaces to give users a better experience through functionality, speed, and user-friendliness. </p>
       </div>
       <div class="image">
-          <img src="./assets/desert-coffee2.png" alt="my coffee">
+          <!-- <img src="./assets/prof2.jpg" alt="my coffee"> -->
       </div>
   </div>
 </template>
 
 <script>
+import { Story } from './components/Story';
 
 export default {
   name: 'app',
@@ -39,10 +44,11 @@ export default {
 }
 
 .main {
-  display: inline-grid;
-  justify-items: center;
-  grid-auto-flow: row;
+  // display: inline-grid;
+  // justify-items: center;
+  // grid-auto-flow: row;
   width: 100%;
+  background-image: url('/img/prof2.4434352c.jpg');
 }
 
 .name {
@@ -81,6 +87,7 @@ export default {
 .image {
   width: 100%;
   >img{
+    border-radius: 15px;
     width: 100%;
   }
 }
@@ -91,10 +98,13 @@ export default {
     padding: 10px;
     font-size: 32px;
     background-color: snow;
-    box-shadow: 15px 15px 0px 3px orangered;
+    // box-shadow: 15px 15px 0px 3px orangered;
     z-index: 1;
     display: inline-block;
     text-align: center;
+}
+.description>p {
+  color: white;
 }
 
 body {
