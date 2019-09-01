@@ -8,15 +8,15 @@
         </h1>
       </div>
       <div class="links">
-          <!-- <ul>
+          <ul>
               <li class="noselect"><a>about me</a></li>
               <li class="noselect"><a>projects</a></li>
               <li class="noselect"><a>projects</a></li>
-          </ul> -->
+          </ul>
       </div>
       <div class="description">
-        <p> web developer </p>
-        <p> I'm a web developer. Building interfaces to give users a better experience through functionality, speed, and user-friendliness. </p>
+        <p> I am a web developer </p>
+        <!-- <p> I'm a web developer. Building interfaces to give users a better experience through functionality, speed, and user-friendliness. </p> -->
       </div>
       <div class="image">
           <!-- <img src="./assets/prof2.jpg" alt="my coffee"> -->
@@ -34,12 +34,14 @@ export default {
 </script>
 
 <style lang="less">
+body {
+  color: rgb(102, 7, 7);
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 
@@ -70,9 +72,6 @@ export default {
     >li {
       list-style: none;
       width: 20%;
-      background-color: white;
-      border: solid 1px lightgray;
-      border-radius: 5px;
       display: inline-block;
       text-align: center;
       margin: 0 10px;
@@ -94,23 +93,16 @@ export default {
 
 .name>h1 {
     text-transform: uppercase;
-    border: 1px solid black;
     padding: 10px;
     font-size: 32px;
-    background-color: snow;
-    // box-shadow: 15px 15px 0px 3px orangered;
     z-index: 1;
     display: inline-block;
     text-align: center;
 }
-.description>p {
-  color: white;
-}
 
 body {
     font-family: 'Exo 2', sans-serif;
-    background-color: rgb(254, 235, 200);
-    color: rgb(45, 45, 45);
+    background-color: rgb(255, 244, 223);
     overflow-x: hidden;
 }
 
@@ -124,16 +116,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .name>h1 {
-    background-color: white;
-  }
 
   .links>ul>li:hover {
-        background-color: #fcfcfc;
         cursor: pointer;
-        color: black;
         padding: 5px 10px;
-        box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
+        // box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
   }
 }
 
@@ -190,16 +177,13 @@ body {
         padding: 5px 100px;
         width: 25%;
         border: solid 1px gray;
-        background-color: white;
       }
     }
   }
   .links>ul>li>a:hover {
-    background-color: #fcfcfc;
     cursor: pointer;
     padding: 5px 100px;
-    color: black;
-    box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
+    // box-shadow: 4px 3px 0px 2px rgb(189, 0, 0);
   }
   .image {
     margin-top: -20%;
