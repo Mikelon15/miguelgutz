@@ -22,7 +22,7 @@ const logos = [{
 
 const SocialMedia = () => {
   return (
-    <div className="flex justify-between mt-8">
+    <div className="flex flex-col md:flex-row justify-between mt-2">
       {logos.map((item, index) =>
         <a key={'logo-' + index} href={index == 1 ? 'mailto:' + item.url : item.url} target={index == 1 ? '' : '_blank'} rel="noreferrer noopener" className='mx-2'>
           <button>
