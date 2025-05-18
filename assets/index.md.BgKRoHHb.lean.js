@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r,ae as o}from"./chunks/framework.BNoOXSQl.js";const k=JSON.parse('{"title":"Taking Care of Bun","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"};function i(d,t,s,l,h,p){return r(),a("div",null,t[0]||(t[0]=[o("",22)]))}const b=e(n,[["render",i]]);export{k as __pageData,b as default};
